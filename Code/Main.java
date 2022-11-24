@@ -66,7 +66,7 @@ public class Main {
         BufferedReader bufferInput;
 
         try {
-            fileInput = new FileReader("C:\\Users\\hilmi\\OneDrive\\Desktop\\belajar java\\database.txt");
+            fileInput = new FileReader("database.txt");
             bufferInput = new BufferedReader(fileInput);
         } catch (Exception e){
             System.err.println("Database Tidak ditemukan");
